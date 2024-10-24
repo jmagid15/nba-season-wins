@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nba-season-wins/static/css/main.0f1c6813.css",
+    "main.js": "/nba-season-wins/static/js/main.30594d69.js",
+    "static/js/453.c1fceea6.chunk.js": "/nba-season-wins/static/js/453.c1fceea6.chunk.js",
+    "static/media/blueprint-icons-20.svg?": "/nba-season-wins/static/media/blueprint-icons-20.a16bd121d1b6a0a00cf1.svg",
+    "static/media/blueprint-icons-16.svg?": "/nba-season-wins/static/media/blueprint-icons-16.668d8e42ab470276d8e0.svg",
+    "static/media/blueprint-icons-20.eot?": "/nba-season-wins/static/media/blueprint-icons-20.c69a770ca9e5ac20beea.eot",
+    "static/media/blueprint-icons-20.ttf?": "/nba-season-wins/static/media/blueprint-icons-20.e37831963a779847cf6b.ttf",
+    "static/media/blueprint-icons-16.eot?": "/nba-season-wins/static/media/blueprint-icons-16.f2c04ff253827d905331.eot",
+    "static/media/blueprint-icons-16.ttf?": "/nba-season-wins/static/media/blueprint-icons-16.b6edc27e079a14f50004.ttf",
+    "static/media/blueprint-icons-20.woff?": "/nba-season-wins/static/media/blueprint-icons-20.133278435c7e3a5c3384.woff",
+    "static/media/blueprint-icons-16.woff?": "/nba-season-wins/static/media/blueprint-icons-16.3e4f07afd3cd18d3667c.woff",
+    "static/media/blueprint-icons-20.woff2?": "/nba-season-wins/static/media/blueprint-icons-20.26acf6d9b4fee5c2109e.woff2",
+    "static/media/blueprint-icons-16.woff2?": "/nba-season-wins/static/media/blueprint-icons-16.c9b7c8427aa11a3df239.woff2",
+    "index.html": "/nba-season-wins/index.html",
+    "main.0f1c6813.css.map": "/nba-season-wins/static/css/main.0f1c6813.css.map",
+    "main.30594d69.js.map": "/nba-season-wins/static/js/main.30594d69.js.map",
+    "453.c1fceea6.chunk.js.map": "/nba-season-wins/static/js/453.c1fceea6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f1c6813.css",
+    "static/js/main.30594d69.js"
+  ]
+}

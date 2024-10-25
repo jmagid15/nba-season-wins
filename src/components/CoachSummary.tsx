@@ -9,17 +9,18 @@ interface ICoachSummaryProps {
   setCoaches: React.Dispatch<React.SetStateAction<ICoach[]>>;
 }
 
-const CoachSummary: React.FC<ICoachSummaryProps> = ({ coach, setCoaches }) => {
-  // const [loading, setLoading] = useState<boolean>(false);
+const SEASON = 2025;
 
-  // setLoading(true);
+
+const CoachSummary: React.FC<ICoachSummaryProps> = ({ coach, setCoaches }) => {
 
   useEffect(() => {
     const getTeamRecords = async () => {
       const records: { [key: string]: string } = {};
       const teamRecordRequests = coach.teams.map(async (team) => {
         // Make API call
-        const response = await fetch(`${BASE_URL}teams/${team.id}`)
+        const response = await fetch(`${BASE_URL}seasons/${SEASON}/teams/${team.id}`)
+        console.log(`${BASE_URL}seasons/${SEASON}/teams/${team.id}`)
         const data = await response.json();
 
         // Extract record from response
@@ -71,24 +72,6 @@ const CoachSummary: React.FC<ICoachSummaryProps> = ({ coach, setCoaches }) => {
       </table>
     </div>
   );
-
-  // useEffect(() => {
-  //   // for (const [k, v] of Object.entries(DRAFT[coach])) {
-  //   for (let i = 0; i < DRAFT[coach].length; i++) {
-  //     getRecordForTeam(i)
-  //   }
-    
-  // })
-
-
-  // setTotalWins(comp);
-
-
-  // return (
-  //   <div>
-  //     <H3></H3>
-  //   </div>
-  // )
 }
 
 export default CoachSummary;

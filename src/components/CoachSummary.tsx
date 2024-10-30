@@ -20,7 +20,6 @@ const CoachSummary: React.FC<ICoachSummaryProps> = ({ coach, setCoaches }) => {
       const teamRecordRequests = coach.teams.map(async (team) => {
         // Make API call
         const response = await fetch(`${BASE_URL}seasons/${SEASON}/teams/${team.id}`)
-        console.log(`${BASE_URL}seasons/${SEASON}/teams/${team.id}`)
         const data = await response.json();
 
         // Extract record from response

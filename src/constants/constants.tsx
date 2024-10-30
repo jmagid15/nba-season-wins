@@ -19,7 +19,7 @@ export const DRAFT: IDraft = {
     {id: 19, name: "Orlando Magic"},
     {id: 14, name: "Miami Heat"},
     {id: 30, name: "Charlotte Hornets"},
-    {id: 1, name: "Utah Jazz"}
+    {id: 26, name: "Utah Jazz"}
   ],
   "Conti": [
     {id: 18, name: "New York Knicks"},

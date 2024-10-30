@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nba-season-wins/static/css/main.37cce085.css",
-    "main.js": "/nba-season-wins/static/js/main.cfd0c772.js",
+    "main.js": "/nba-season-wins/static/js/main.6de07b5b.js",
     "static/js/453.c1fceea6.chunk.js": "/nba-season-wins/static/js/453.c1fceea6.chunk.js",
     "static/media/blueprint-icons-20.svg?": "/nba-season-wins/static/media/blueprint-icons-20.a16bd121d1b6a0a00cf1.svg",
     "static/media/blueprint-icons-16.svg?": "/nba-season-wins/static/media/blueprint-icons-16.668d8e42ab470276d8e0.svg",
@@ -15,11 +15,11 @@
     "static/media/blueprint-icons-16.woff2?": "/nba-season-wins/static/media/blueprint-icons-16.c9b7c8427aa11a3df239.woff2",
     "index.html": "/nba-season-wins/index.html",
     "main.37cce085.css.map": "/nba-season-wins/static/css/main.37cce085.css.map",
-    "main.cfd0c772.js.map": "/nba-season-wins/static/js/main.cfd0c772.js.map",
+    "main.6de07b5b.js.map": "/nba-season-wins/static/js/main.6de07b5b.js.map",
     "453.c1fceea6.chunk.js.map": "/nba-season-wins/static/js/453.c1fceea6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.37cce085.css",
-    "static/js/main.cfd0c772.js"
+    "static/js/main.6de07b5b.js"
   ]
 }
